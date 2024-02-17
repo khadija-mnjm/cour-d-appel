@@ -1,0 +1,111 @@
+.datatable-search {
+    margin-bottom: 15px; 
+    border: #008800;/* Espacement en bas de la zone de recherche */
+}
+
+.datatable-input {
+    padding: 8px; /* Espace à l'intérieur de la zone de recherche */
+    font-size: 14px; /* Taille de la police */
+    border: 1px solid #00cc00; /* Bordure verte */
+    border-radius: 5px; /* Coins arrondis */
+    width: 200px; /* Largeur de la zone de recherche */
+}
+
+/* Style pour la zone de recherche lorsqu'elle est focus (clic) */
+.datatable-input:focus {
+    outline: none; /* Supprimer la bordure de focus par défaut */
+    border-color: #008800; /* Bordure plus foncée lorsqu'elle est focus */
+    box-shadow: 0 0 5px rgba(0, 204, 0, 0.3); /* Ombre légère lorsqu'elle est focus */
+}
+
+/* Style pour la zone de recherche lorsqu'elle est hover (survol) */
+.datatable-input:hover {
+    border-color: #008800; /* Bordure plus foncée lorsqu'elle est survolée */
+}
+
+/* Style pour le texte de l'attribut placeholder */
+.datatable-input::placeholder {
+    color: #00cc00; /* Couleur du texte de l'attribut placeholder (vert) */
+}
+.datatable-dropdown {
+    margin-bottom: 15px; /* Espacement en bas de la boîte déroulante */
+}
+
+.datatable-selector {
+    padding: 8px; /* Espace à l'intérieur de la boîte de sélection */
+    font-size: 14px; /* Taille de la police */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+label {
+    font-size: 16px; /* Taille de la police pour l'étiquette */
+    margin-right: 10px; /* Espacement à droite de l'étiquette */
+}
+
+/* Si vous voulez modifier le style du texte à l'intérieur de la boîte de sélection */
+.datatable-selector option {
+    font-size: 14px;
+}
+
+/* Style pour la boîte de sélection lorsqu'elle est survolée */
+.datatable-selector:hover {
+    border-color: #555; /* Bordure foncée lorsqu'elle est survolée */
+}
+
+/* Style pour la boîte de sélection lorsqu'elle est focus (clic) */
+.datatable-selector:focus {
+    outline: none; /* Supprimer la bordure de focus par défaut */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Ombre légère lorsqu'elle est focus */
+}
+
+/* Style pour la boîte de sélection lorsqu'elle est ouverte */
+.datatable-selector:active {
+    background-color: #f8f8f8; /* Couleur de fond légère lorsqu'elle est ouverte */
+}
+.hhh{
+    display:flex;
+}
+.sidebar-nav .nav-item.active {
+    background-color: #7df5b9;
+    color: #fff;
+}
+.span2{
+    color: #557C55;
+}
+.nav-tabs-bordered .nav-link.active {
+    background-color: #fff;
+    color: #50623A;
+    border-bottom: 2px solid #645500d8;
+  }
+  
+.image22{
+    width: 260px;
+    height: 240px;
+    align-items: center;
+    margin-left: 40%;
+}
+.BtnSave{
+    margin-top: 15px;
+    background-color:#43766C;
+    color: #FFF8DE;
+    border-radius: 10px;
+    border: none;
+    width: 160px;
+    padding: 5px;
+    height: 40px;
+}
+.lord-icon{
+    color: #43766C;
+    width: 10%;
+    height: 10%;
+}
+.icon-preview{
+    color: black;
+    font-size: 30px !important;
+
+}
+
+.ps-32{
+    display: flex;
+}
